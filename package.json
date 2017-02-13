@@ -1,6 +1,6 @@
 {
-  "name": "webpack-configurator",
-  "version": "0.3.1",
+  "name": "@vjpr/webpack-configurator",
+  "version": "0.3.1-vjpr.1",
   "description": "Helper for creating and extending Webpack configuration structures.",
   "main": "index.js",
   "scripts": {
@@ -14,10 +14,12 @@
     "loaders",
     "plugins"
   ],
-  "author": "Lewis Barnes",
+  "author": {
+    "name": "Lewis Barnes"
+  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/lewie9021/webpack-configurator"
+    "url": "git+ssh://git@github.com/lewie9021/webpack-configurator.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -25,7 +27,14 @@
   },
   "devDependencies": {
     "chai": "3.4.0",
-    "extract-text-webpack-plugin": "0.8.2",
-    "mocha": "2.3.3"
-  }
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "mocha": "2.3.3",
+    "webpack": "^1.14.0"
+  },
+  "bugs": {
+    "url": "https://github.com/lewie9021/webpack-configurator/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/lewie9021/webpack-configurator#readme",
+  "_id": "@vjpr/webpack-configurator@0.3.1"
 }
